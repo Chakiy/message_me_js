@@ -1,1 +1,98 @@
 @import url(./reset.css);
+
+.containr {
+  border: 1px solid #00f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+  background: radial-gradient(circle, #ffaaff 20%, #aaffff 80%);
+}
+
+.person_block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.form_block {
+  /* border: 1px solid #f00; */
+  background-color: rgba(255, 96, 96, 0.158);
+  padding: 20px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+.who {
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.name {
+  display: block;
+  margin-bottom: 20px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #333333;
+  background-color: #79787800;
+  /* outline: none; */
+  /* outline-color: #00f; */
+  /* border-width: 0 0 1px; */
+  outline: 0;
+  /* outline-color: #ffaaff; */
+  padding: 5px;
+  font-size: 20px;
+}
+input:focus {
+  border-color: #ffaaff;
+}
+
+textarea {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: transparent;
+  /* outline-color: #ffaaff; */
+  width: 250px;
+  height: 140px;
+}
+textarea:focus {
+  border-color: #ffaaff;
+  outline: none;
+  box-shadow: 5px 5px 30px 0 #20202069;
+}
+
+.message h2 {
+  text-align: center;
+}
+
+.output {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.output h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.chat {
+  margin-top: 40px;
+  width: 100%;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.response {
+  text-align: right;
+}
