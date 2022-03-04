@@ -19,7 +19,7 @@
             <h2>My message:</h2>
             <textarea
               name=""
-              id="textarea_message"
+              id="textarea_message_me"
               cols="30"
               rows="10"
             ></textarea>
@@ -27,14 +27,14 @@
         </div>
         <div class="form_block">
           <div class="who">
-            <label for="input_you" class="name">What is your name?</label>
+            <label for="input_you" class="name2">What is your name?</label>
             <input id="input_you" type="text" class="name2_input" />
           </div>
           <div class="message">
             <h2>Your message:</h2>
             <textarea
               name=""
-              id="textarea_message"
+              id="textarea_message_you"
               cols="30"
               rows="10"
             ></textarea>
@@ -44,8 +44,10 @@
       <div class="output">
         <h2>Chat</h2>
         <div class="chat">
-          <p>hello</p>
-          <p class="response">hi</p>
+          <div class="name_sections">
+            <p class="name_me"></p>
+            <p class="name_you"></p>
+          </div>
         </div>
       </div>
     </div>

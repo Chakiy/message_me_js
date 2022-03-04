@@ -1,7 +1,11 @@
 @import url(./reset.css);
 
+body {
+  background-color: #000;
+}
+
 .containr {
-  border: 1px solid #00f;
+  /* border: 1px solid #00f; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,7 +37,8 @@
   text-align: center;
   padding-bottom: 20px;
 }
-.name {
+.name,
+.name2 {
   display: block;
   margin-bottom: 20px;
 }
@@ -85,6 +90,22 @@ textarea:focus {
 .chat {
   margin-top: 40px;
   width: 100%;
+}
+
+.name_sections {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #333;
+}
+
+.name_me,
+.name_you {
+  padding: 5px;
+
+  border: none;
+  /* border-bottom: 1px solid #333; */
 }
 
 p {
